@@ -1,12 +1,17 @@
-
-/* Your CSS Code here. */.holder {
+.holder {
   display: flex;
+  flex-wrap: wrap;              
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: lightgray;
 }
-.box {
-  background-color: teal;
-  height: 100px;
-  width: 100px;
+
+
+.item {
+  flex: 0 0 150px; 
+  height: 100px;     
+  background: lightblue;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; 
 }
